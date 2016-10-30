@@ -8,7 +8,7 @@ mockle.print_version
 import sys
 
 __project__ = "mockle"
-__version__ = "0.0.4"
+__version__ = "0.0.1"
 
 
 def print_version():

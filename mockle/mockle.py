@@ -29,7 +29,9 @@ def mockle(name, good=None, exception=""):
             except:
                 # do not raise "this" exception, but the original
                 raise exception
-    elif exception is not None:
+    elif exception == "":
+        return good
+    else:
         raise exception
 
 
